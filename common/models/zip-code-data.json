@@ -1,0 +1,33 @@
+{
+  "name": "zipCodeData",
+  "plural": "zipCodes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "loc": {
+      "type": [
+        "number"
+      ],
+      "required": true
+    },
+    "pop": {
+      "type": "number",
+      "required": true
+    },
+    "state": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
